@@ -1,0 +1,56 @@
+*,
+*::before
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+}
+
+h2 {
+    font-size: 5em;
+    margin: 0cm;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+button {
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    color: darkcyan;
+    cursor: pointer;
+    font-size: medium;
+    letter-spacing: 0.2px;
+    line-height: 16px;
+    max-width: 255px;
+    padding: 20px 40px;
+    text-align: center;
+    margin-top: 0.6em;
+    float: right;
+}
+
+input {
+    background-color: aliceblue;
+    border-radius: 3px;
+    border-width: 0cm;
+    font-size: x-small;
+    height: 32px;
+    line-height: 20px;
+    margin: 0px;
+    margin-top: 8px;
+    max-width: 100%;
+    padding: 8px 8px 8px 8px;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.2s, 0.2s;
+    transition-property: background-color, color;
+    transition-timing-function: ease, ease;
+    vertical-align: middle;
+    width: 100%;
+}
+
+input:hover {
+    background-color: azure;
+}

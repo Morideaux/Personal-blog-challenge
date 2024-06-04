@@ -84,4 +84,18 @@ input:hover {
   #msg.error {
     color: #e6252c;
   }
-  
+
+  #blog-section {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+  }
+  .blog-card {
+    padding: 1rem;
+    max-width: 20rem;
+    min-width: 10rem;
+    background-color: bisque;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+  }
